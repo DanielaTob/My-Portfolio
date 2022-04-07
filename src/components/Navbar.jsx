@@ -2,7 +2,7 @@
 export default function Navbar() {
   return (
     <div>
-        <nav className="relative flex flex-wrap items-center justify-start py-2 bg-bglight mb-3">
+        <nav className="relative flex flex-wrap items-center justify-start py-2 bg-bglight">
         <div className="container px-4 mx-auto flex flex-wrap items-center justify-start">
               
               <div className=" flex flex-wrap items-center">
