@@ -1,8 +1,8 @@
 import './App.css'
-
+import {Routes, Route} from  'react-router-dom';
 import Header from './components/Header';
-import Home from './views/Home';
-import Skills from './views/Skills';
+import Landing from './pages/Landing';
+import Project from './pages/Project';
 
 
 function App() {
@@ -10,8 +10,10 @@ function App() {
   return (
     <div className="App">
       <Header />
-        <Home />
-        <Skills />
+      <Routes>
+        <Route path='/' element={<Landing />} />
+        <Route path='/Project' element={<Project />} />
+      </Routes>
     </div>
   )
 }

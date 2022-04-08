@@ -12,7 +12,7 @@ export default function Header() {
     }
 
   return (
-    <div className='font-fontFamily-paragraph w-full justify-start font-medium  md:p-4 items-center'>
+    <div className='font-fontFamily-paragraph bg-bglight w-full justify-start font-medium  md:p-4 items-center'>
         <nav>
             <div className='absolute right-6 md:hidden top-6 scale-150 text-red'>
                 <MdOutlineMenu onClick={showMenu} className='scale-150 cursor-pointer'/>
