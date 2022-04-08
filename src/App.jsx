@@ -1,14 +1,17 @@
 import './App.css'
-import { Outlet } from 'react-router-dom';
-import Navbar from './components/Navbar'
+
+import Header from './components/Header';
+import Home from './views/Home';
+import Skills from './views/Skills';
 
 
 function App() {
 
   return (
     <div className="App">
-      <Navbar />
-        <Outlet />
+      <Header />
+        <Home />
+        <Skills />
     </div>
   )
 }
