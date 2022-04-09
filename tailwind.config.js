@@ -10,7 +10,7 @@ module.exports = {
         'bglight': '#FFEED9',
         'bgdark': '#FFDDBF',
         'whitee': '#FFF8F2',
-        'colortitle': '#594F43',
+        'colortitle': '#403930',
         'colorparagraph': '#594F43'
       },
       screens: {
@@ -31,8 +31,8 @@ module.exports = {
       }
     },
     fontFamily: {
-      'title': ['Eczar'],
-      'paragraph': ['Work Sans']
+      'title': ['Work Sans'],
+      'paragraph': ['Eczar']
     }
   },
   plugins: [],
