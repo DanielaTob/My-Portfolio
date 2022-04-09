@@ -5,6 +5,13 @@ import { BiWorld } from 'react-icons/bi';
 
 export default function CardWork() {
   return (
+
+    <div>
+
+    <div className="font-paragraph text-colortitle font-bold pl-9 pt-16 text-3xl">
+        <h1>My Recent Work</h1>
+    </div>
+
     <div className="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 p-9">
       
       
@@ -159,6 +166,8 @@ export default function CardWork() {
 
 
 
+
+    </div>
 
     </div>
   );
