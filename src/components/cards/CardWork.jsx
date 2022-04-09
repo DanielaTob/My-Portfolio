@@ -28,7 +28,7 @@ export default function CardWork() {
               </div>
             </div>
 
-            <h4 className="mt-1 text-xl font-semibold  leading-tight truncate">
+            <h4 className="mt-1 text-xl font-title font-normal  leading-tight truncate">
               Project Name
             </h4>
 
@@ -36,7 +36,7 @@ export default function CardWork() {
             Lorem ipsum dolor sit amet consectetur adipisicing elit.
             </div>
             <div className="mt-4">
-              <span className="text-red text-md font-semibold">
+              <span className="text-red text-md font-title font-semibold">
                 View More
               </span>
              
@@ -66,7 +66,7 @@ export default function CardWork() {
               </div>
             </div>
 
-            <h4 className="mt-1 text-xl font-semibold leading-tight truncate">
+            <h4 className="mt-1 text-xl font-title font-normal leading-tight truncate">
               Project Name
             </h4>
 
@@ -74,7 +74,7 @@ export default function CardWork() {
             Lorem ipsum dolor sit amet consectetur adipisicing elit.
             </div>
             <div className="mt-4">
-              <span className="text-red text-md font-semibold">
+              <span className="text-red text-md font-title font-semibold">
                 View More
               </span>
              
@@ -103,7 +103,7 @@ export default function CardWork() {
               </div>
             </div>
 
-            <h4 className="mt-1 text-xl font-semibold leading-tight truncate">
+            <h4 className="mt-1 text-xl font-title font-normal leading-tight truncate">
               Project Name
             </h4>
 
@@ -111,7 +111,7 @@ export default function CardWork() {
             Lorem ipsum dolor sit amet consectetur adipisicing elit.
             </div>
             <div className="mt-4">
-              <span className="text-red text-md font-semibold">
+              <span className="text-red text-md font-title font-semibold">
                 View More
               </span>
              
@@ -143,12 +143,12 @@ export default function CardWork() {
               </div>
             </div>
 
-            <h4 className="mt-1 text-xl font-semibold leading-tight truncate">
+            <h4 className="mt-1 text-xl font-normal font-title leading-tight truncate">
               Project Name
             </h4>
 
             <div className="mt-4">
-              <span className="text-red text-md font-semibold">
+              <span className="text-red text-md font-title font-semibold">
                 View More
               </span>
              
