@@ -19,7 +19,7 @@ export default function Header() {
             </div>
             <ul className='hidden md:flex gap-8 p-6 text-colorparagraph'>
                 <li>Home</li>
-                <li>Work</li>
+                <li>Projects</li>
                 <li>Skills</li>
                 <li>About</li>
                 <li>Contact</li>
