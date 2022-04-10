@@ -1,11 +1,10 @@
 import React from "react";
+import TextAbout from "../components/TextAbout";
 
 export default function About() {
   return (
-    <div className="bg-bgdark h-screen">
-      <div className="font-paragraph text-colortitle font-bold pl-9 pt-16 text-3xl">
-        <h1>A Little Bit About Me</h1>
-      </div>
+    <div className="sm:pr-9 pb-40 bg-bgdark grid sm:grid-cols-1 lg:grid-cols-2 xl:grid-flow-col auto-cols-max gap-2">
+        <TextAbout />
     </div>
   );
 }
