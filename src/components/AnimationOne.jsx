@@ -4,7 +4,7 @@ export default function AnimationOne() {
   return (
     <div>
         <div>
-        <img className='lg:pt-11' src={imgone} alt="img1" />
+        <img className='' src={imgone} alt="img1" />
         </div>
     </div>
   )
