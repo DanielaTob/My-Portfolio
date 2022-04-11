@@ -1,4 +1,5 @@
 import React from 'react'
+import img1 from '../assets/icon2.png'
 import { RiReactjsLine} from 'react-icons/ri';
 import { IoLogoJavascript } from 'react-icons/io';
 import { DiMongodb} from 'react-icons/di';
@@ -14,11 +15,15 @@ import { AiFillGithub } from 'react-icons/ai';
 import { CgFigma} from 'react-icons/cg';
 import { SiAdobeillustrator } from 'react-icons/si';
 import { SiAdobephotoshop} from 'react-icons/si';
+import { MdDesignServices} from 'react-icons/md';
+import { MdOutlineDevices } from 'react-icons/md';
+import { MdOutlineWebAsset } from 'react-icons/md';
+
 
 
 const Skills = () => {
   return (
-    <div id='skills' className='bg-bglight h-screen sm:pr-9 pb-30 grid sm:grid-cols-1 lg:grid-cols-2 xl:grid-flow-col auto-cols-max gap-2'>
+    <div id='skills' className='bg-bglight sm:pr-9 p-6 grid sm:grid-cols-1 lg:grid-cols-2 xl:grid-flow-col auto-cols-max gap-2'>
         <div className="font-paragraph text-colortitle font-bold pl-9 pt-16 text-3xl">
           <h1>My Skills</h1>
 
@@ -110,8 +115,66 @@ const Skills = () => {
 
           </div>
         </div>
-        <div className="grid font-paragraph text-colortitle font-bold pt-16 ">
-          <h1>Another thing</h1>
+        <div className="grid font-paragraph text-colortitle font-bold">
+          
+<div class=" flex flex-col ">
+  <div class="m-auto">
+    <div class="flex flex-col bg-bgdark max-w-sm shadow-md py-8 px-10 md:px-4 rounded-md border-2 border-red px-4 py-6 rounded-lg transform transition duration-500 hover:scale-110">
+      <div class="flex flex-col md:flex-row gap-6 md:gap-8">
+        <MdDesignServices className='text-6xl text-red'/>
+        <div class="flex flex-col text-center md:text-left">
+          <div class="font-medium text-lg text-gray-800">UX/UI</div>
+          <p class="text-gray-500 mb-3 whitespace-nowrap">Lorem lorem lorem lorem. </p>
+          <div class="flex flex-row gap-4 text-gray-800 my-auto text-2xl mx-auto md:mx-0">
+            <a class="hover:cursor-pointer hover:text-blue-500"><i class="fab fa-linkedin"></i></a>
+            <a class="hover:cursor-pointer hover:text-blue-500"><i class="fab fa-facebook-square"></i></a>
+            <a class="hover:cursor-pointer hover:text-blue-500"><i class="fab fa-github-square"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="m-auto">
+    <div class="flex flex-col bg-bgdark max-w-sm shadow-md py-8 px-10 md:px-4 rounded-md border-2 border-red px-4 py-6 rounded-lg transform transition duration-500 hover:scale-110">
+      <div class="flex flex-col md:flex-row gap-6 md:gap-8">
+      <MdOutlineWebAsset className='text-6xl text-red'/>
+        <div class="flex flex-col text-center md:text-left">
+          <div class="font-medium text-lg text-gray-800">Web Development</div>
+          <div class="text-gray-500 mb-3 whitespace-nowrap">lorem lorem lorem lorem.</div>
+          <div class="flex flex-row gap-4 text-gray-800 my-auto text-2xl mx-auto md:mx-0">
+            <a class="hover:cursor-pointer hover:text-blue-500"><i class="fab fa-linkedin"></i></a>
+            <a class="hover:cursor-pointer hover:text-blue-500"><i class="fab fa-facebook-square"></i></a>
+            <a class="hover:cursor-pointer hover:text-blue-500"><i class="fab fa-github-square"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+  <div class="m-auto">
+    <div class="flex flex-col bg-bgdark max-w-sm shadow-md py-8 px-10 md:px-4 rounded-md border-2 border-red px-4 py-6 rounded-lg transform transition duration-500 hover:scale-110">
+      <div class="flex flex-col md:flex-row gap-6 md:gap-8">
+      <MdOutlineDevices className='text-6xl text-red'/>
+        <div class="flex flex-col text-center md:text-left">
+          <div class="font-medium text-lg text-gray-800">Web Design</div>
+          <div class="text-gray-500 mb-3 whitespace-nowrap">lorem lorem lorem lorem.</div>
+          <div class="flex flex-row gap-4 text-gray-800 my-auto text-2xl mx-auto md:mx-0">
+            <a class="hover:cursor-pointer hover:text-blue-500"><i class="fab fa-linkedin"></i></a>
+            <a class="hover:cursor-pointer hover:text-blue-500"><i class="fab fa-facebook-square"></i></a>
+            <a class="hover:cursor-pointer hover:text-blue-500"><i class="fab fa-github-square"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+          
         </div>
     </div>
   )

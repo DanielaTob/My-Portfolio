@@ -3,7 +3,7 @@ import CardWork from "../components/cards/CardWork";
 
 export default function Work() {
   return (
-    <div id="projects" className="bg-bgdark">
+    <div id="projects" className="bg-bgdark py-10">
       <div className="font-paragraph text-colortitle font-bold pl-9 pt-16 text-3xl">
         <h1>My Recent Projects</h1>
       </div>
