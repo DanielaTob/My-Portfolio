@@ -25,7 +25,7 @@ export default function AnimationTwo() {
   return (
     <div>
         <div className='cursor-pointer'>
-        <img id="one" onClick={animate} src={img1} alt="img1"  title='click me!'/>
+        <img id="one" onClick={animate} src={img1} alt="img1" title='click me!'/>
         </div>
     </div>
   )
