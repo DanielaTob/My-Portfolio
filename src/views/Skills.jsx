@@ -12,11 +12,11 @@ const Skills = () => {
           <h1>My Skills</h1>
 
           <div className='grid grid-cols-5 pt-16 text-red'>
-            <div className='animation scale-150'> <RiReactjsLine/> </div>
-            <div className='animation scale-150'><IoLogoJavascript/></div>
-            <div className='animation scale-150'><DiMongodb /></div>
-            <div className='animation scale-150'><FaNodeJs /></div>
-            <div className='animation scale-150'><SiExpress /></div>
+            <div className='animation text-5xl'> <RiReactjsLine/> </div>
+            <div className='animation text-5xl'><IoLogoJavascript/></div>
+            <div className='animation text-5xl'><DiMongodb /></div>
+            <div className='animation text-5xl'><FaNodeJs /></div>
+            <div className='animation text-5xl'><SiExpress /></div>
           </div>
         </div>
         <div className="grid font-paragraph text-colortitle font-bold pt-16 ">
