@@ -150,6 +150,10 @@ export default function CardWork() {
               Project Name
             </h4>
 
+            <div className="mt-1 text-sm">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            </div>
+
             <div className="mt-2">
               <span className="text-red text-sm font-title font-semibold">
                 View More

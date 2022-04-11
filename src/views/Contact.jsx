@@ -4,7 +4,7 @@ import Social from './Social'
 
 export default function Contact() {
   return (
-    <div className='bg-bglight pr-4 pb-4 pt-4'>
+    <div id='contact' className='bg-bglight pr-4 pb-4'>
     <div className='bg-bglight pl-9 pt-28'>
     <div className='font-paragraph text-2xl sm:text-3xl md:text-5xl lg:text-5xl xl:text-6xl 2xl:text-6xl text-colortitle font-bold'>
         <p>Let’s work together and</p>

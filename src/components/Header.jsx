@@ -12,17 +12,17 @@ export default function Header() {
     }
 
   return (
-    <div className='font-fontFamily-paragraph bg-bglight w-full justify-start font-medium  md:p-4 items-center'>
+    <div className='cursor-pointer font-fontFamily-paragraph bg-bglight w-full justify-start font-medium  md:p-4 items-center'>
         <nav>
             <div className='absolute right-6 md:hidden top-6 scale-150 text-red'>
                 <MdOutlineMenu onClick={showMenu} className='scale-150 cursor-pointer'/>
             </div>
             <ul className='hidden md:flex gap-8 p-6 text-colorparagraph'>
-                <li>Home</li>
-                <li>Projects</li>
-                <li>Skills</li>
-                <li>About</li>
-                <li>Contact</li>
+                <li><a href='#home'>Home</a></li>
+                <li><a href='#projects'>Projects</a></li>
+                <li><a href='#skills'>Skills</a></li>
+                <li><a href='#about'>About</a></li>
+                <li><a href='#contact'>Contact</a></li>
             </ul>
 
             <MenuItems showMenu={showMenu} active={active}/>
