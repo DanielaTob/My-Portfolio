@@ -11,12 +11,41 @@ const Skills = () => {
         <div className="font-paragraph text-colortitle font-bold pl-9 pt-16 text-3xl">
           <h1>My Skills</h1>
 
-          <div className='grid grid-cols-5 pt-16 text-red'>
-            <div className='animation text-5xl'> <RiReactjsLine/> </div>
-            <div className='animation text-5xl'><IoLogoJavascript/></div>
-            <div className='animation text-5xl'><DiMongodb /></div>
-            <div className='animation text-5xl'><FaNodeJs /></div>
-            <div className='animation text-5xl'><SiExpress /></div>
+          <div className='wrapper gap-10 grid grid-cols-5 pt-16 text-red'>
+
+            
+          <div class="icon program animation">
+            <span class="tooltip">Reactjs</span>
+            <span><i><RiReactjsLine className="text-2xl"/> </i></span>
+          </div>
+
+          <div class="icon program animation">
+            <span class="tooltip">JavasScript</span>
+            <span><i><IoLogoJavascript className="text-2xl"/> </i></span>
+          </div>
+
+
+          <div class="icon program animation">
+            <span class="tooltip">MongoDB</span>
+            <span><i><DiMongodb className="text-2xl"/> </i></span>
+          </div>
+
+
+          <div class="icon program animation">
+            <span class="tooltip">NodeJS</span>
+            <span><i><FaNodeJs  className="text-2xl"/> </i></span>
+          </div>
+
+
+          <div class="icon program animation">
+            <span class="tooltip">Express</span>
+            <span><i><SiExpress  className="text-2xl"/> </i></span>
+          </div>
+
+           
+
+
+
           </div>
         </div>
         <div className="grid font-paragraph text-colortitle font-bold pt-16 ">

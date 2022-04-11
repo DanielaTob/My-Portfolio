@@ -13,7 +13,6 @@ export default function Landing() {
         <Skills />
         <About />
         <Contact />
-
     </div>
   )
 }
