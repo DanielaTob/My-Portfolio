@@ -51,7 +51,6 @@ body::-webkit-scrollbar-thumb {
 
 
 .wrapper {
-  display: inline-flex;
   list-style: none;
 }
 

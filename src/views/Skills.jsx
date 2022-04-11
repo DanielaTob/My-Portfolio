@@ -11,7 +11,7 @@ const Skills = () => {
         <div className="font-paragraph text-colortitle font-bold pl-9 pt-16 text-3xl">
           <h1>My Skills</h1>
 
-          <div className='wrapper gap-10 grid grid-cols-5 pt-16 text-red'>
+          <div className='wrapper grid grid-cols-5 pt-16 text-red'>
 
             
           <div class="icon program animation">
