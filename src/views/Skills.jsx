@@ -15,7 +15,7 @@ const Skills = () => {
 
             
           <div class="icon program animation">
-            <span class="tooltip">Reactjs</span>
+            <span class="tooltip">ReactJs</span>
             <span><i><RiReactjsLine className="text-2xl"/> </i></span>
           </div>
 
