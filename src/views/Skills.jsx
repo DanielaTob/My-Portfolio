@@ -125,11 +125,7 @@ const Skills = () => {
         <div className="flex flex-col text-center md:text-left">
           <div className="font-medium text-lg font-paragraph text-colortitle">UX/UI</div>
           <div className="font-title text-colorparagraph mb-3 whitespace-nowrap">Lorem lorem lorem lorem. </div>
-          <div className="flex flex-row gap-4 text-gray-800 my-auto text-2xl mx-auto md:mx-0">
-            <a className="hover:cursor-pointer hover:text-blue-500"><i className="fab fa-linkedin"></i></a>
-            <a className="hover:cursor-pointer hover:text-blue-500"><i className="fab fa-facebook-square"></i></a>
-            <a className="hover:cursor-pointer hover:text-blue-500"><i className="fab fa-github-square"></i></a>
-          </div>
+        
         </div>
       </div>
     </div>
@@ -143,11 +139,7 @@ const Skills = () => {
         <div className="flex flex-col text-center md:text-left">
           <div className="font-medium text-lg font-paragraph text-colortitle">Web Development</div>
           <div className="font-title text-colorparagraph mb-3 whitespace-nowrap">lorem lorem lorem lorem.</div>
-          <div className="flex flex-row gap-4 text-gray-800 my-auto text-2xl mx-auto md:mx-0">
-            <a className="hover:cursor-pointer hover:text-blue-500"><i className="fab fa-linkedin"></i></a>
-            <a className="hover:cursor-pointer hover:text-blue-500"><i className="fab fa-facebook-square"></i></a>
-            <a className="hover:cursor-pointer hover:text-blue-500"><i className="fab fa-github-square"></i></a>
-          </div>
+          
         </div>
       </div>
     </div>
@@ -162,11 +154,7 @@ const Skills = () => {
         <div className="flex flex-col text-center md:text-left">
           <div className="font-medium text-lg font-paragraph text-colortitle">Web Design</div>
           <div className="font-title text-colorparagraph mb-3 whitespace-nowrap">lorem lorem lorem lorem.</div>
-          <div className="flex flex-row gap-4 text-gray-800 my-auto text-2xl mx-auto md:mx-0">
-            <a className="hover:cursor-pointer hover:text-blue-500"><i className="fab fa-linkedin"></i></a>
-            <a className="hover:cursor-pointer hover:text-blue-500"><i className="fab fa-facebook-square"></i></a>
-            <a className="hover:cursor-pointer hover:text-blue-500"><i className="fab fa-github-square"></i></a>
-          </div>
+          
         </div>
       </div>
     </div>
