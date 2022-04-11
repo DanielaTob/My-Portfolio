@@ -125,8 +125,6 @@ export default function CardWork() {
 
 
 
-
-
       <div className="transform transition duration-500 hover:scale-105">
         <img
           src="https://source.unsplash.com/random/350x350"
