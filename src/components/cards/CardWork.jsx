@@ -1,6 +1,8 @@
 import React from "react";
 import { FaGithub} from 'react-icons/fa';
 import { BiWorld } from 'react-icons/bi';
+import { Link } from "react-router-dom";
+
 
 
 export default function CardWork() {
@@ -39,10 +41,11 @@ export default function CardWork() {
             Lorem ipsum dolor sit amet consectetur adipisicing elit.
             </div>
             <div className="mt-2">
-              <span className="text-red text-sm font-title font-semibold">
+              <Link to="/Project">
+              <button className="text-red text-sm font-title font-semibold">
                 View More
-              </span>
-             
+              </button>
+              </Link>
             </div>
           </div>
         </div>
@@ -77,10 +80,11 @@ export default function CardWork() {
             Lorem ipsum dolor sit amet consectetur adipisicing elit.
             </div>
             <div className="mt-2">
-              <span className="text-red text-sm font-title font-semibold">
+            <Link to="/Project">
+              <button className="text-red text-sm font-title font-semibold">
                 View More
-              </span>
-             
+              </button>
+             </Link>
             </div>
           </div>
         </div>
@@ -114,10 +118,11 @@ export default function CardWork() {
             Lorem ipsum dolor sit amet consectetur adipisicing elit.
             </div>
             <div className="mt-2">
-              <span className="text-red text-sm font-title font-semibold">
+            <Link to="/Project">
+              <button className="text-red text-sm font-title font-semibold">
                 View More
-              </span>
-             
+              </button>
+             </Link>
             </div>
           </div>
         </div>
@@ -153,10 +158,11 @@ export default function CardWork() {
             </div>
 
             <div className="mt-2">
-              <span className="text-red text-sm font-title font-semibold">
+            <Link to="/Project">
+              <button className="text-red text-sm font-title font-semibold">
                 View More
-              </span>
-             
+              </button>
+             </Link>
             </div>
           </div>
         </div>

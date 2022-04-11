@@ -1,5 +1,4 @@
 import React from 'react'
-import img1 from '../assets/icon2.png'
 import { RiReactjsLine} from 'react-icons/ri';
 import { IoLogoJavascript } from 'react-icons/io';
 import { DiMongodb} from 'react-icons/di';
