@@ -8,6 +8,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@emailjs/browser": "^3.6.2",
     "flowbite": "^1.4.1",
     "imagehover.css": "^2.0.0",
     "react": "^17.0.2",

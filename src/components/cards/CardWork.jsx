@@ -42,7 +42,7 @@ export default function CardWork() {
             </div>
             <div className="mt-2">
               <Link to="/Project">
-              <button className="text-red text-sm font-title font-semibold">
+              <button className="transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 text-red text-sm font-title font-semibold">
                 View More
               </button>
               </Link>
@@ -81,7 +81,7 @@ export default function CardWork() {
             </div>
             <div className="mt-2">
             <Link to="/Project">
-              <button className="text-red text-sm font-title font-semibold">
+              <button className="transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 text-red text-sm font-title font-semibold">
                 View More
               </button>
              </Link>
@@ -119,7 +119,7 @@ export default function CardWork() {
             </div>
             <div className="mt-2">
             <Link to="/Project">
-              <button className="text-red text-sm font-title font-semibold">
+              <button className="transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 text-red text-sm font-title font-semibold">
                 View More
               </button>
              </Link>
@@ -159,7 +159,7 @@ export default function CardWork() {
 
             <div className="mt-2">
             <Link to="/Project">
-              <button className="text-red text-sm font-title font-semibold">
+              <button className="transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 text-red text-sm font-title font-semibold">
                 View More
               </button>
              </Link>

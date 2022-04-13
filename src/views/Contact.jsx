@@ -1,5 +1,6 @@
 import React from 'react'
-import ButtonContact from '../components/buttons/ButtonContact'
+import ModalForm from '../components/ModalForm'
+
 import Social from './Social'
 
 export default function Contact() {
@@ -13,8 +14,9 @@ export default function Contact() {
     </div>
     </div>
     <div>
-    <ButtonContact />
+    <ModalForm />
     <Social />
+    
     </div>
     </div>
   )
