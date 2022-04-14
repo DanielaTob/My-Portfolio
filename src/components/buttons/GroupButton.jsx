@@ -7,7 +7,7 @@ export default function GroupButton() {
     <div>
       <div className="flex gap-4 pl-9 pt-10">
         <a href="#projects" className="transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 bg-red gap-2 text-white font-fontFamily-paragraph  font-semibold py-2 px-4  rounded-lg inline-flex items-center">
-         <span>View My Projects</span> <IoIosArrowDroprightCircle className="fill-current w-4 h-4 mr-2"/>
+         <span>Projects</span> <IoIosArrowDroprightCircle className="fill-current w-4 h-4 mr-2"/>
         </a>
         <div>
 
