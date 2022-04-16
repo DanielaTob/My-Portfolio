@@ -16,7 +16,7 @@ import { SiAdobeillustrator } from 'react-icons/si';
 import { SiAdobephotoshop} from 'react-icons/si';
 import { MdDesignServices} from 'react-icons/md';
 import { MdOutlineDevices } from 'react-icons/md';
-import { MdOutlineWebAsset } from 'react-icons/md';
+import { FaLightbulb } from 'react-icons/fa';
 
 
 
@@ -123,7 +123,7 @@ const Skills = () => {
         <MdDesignServices className='text-6xl text-red'/>
         <div className="flex flex-col text-center md:text-left">
           <div className="font-medium text-lg font-paragraph text-colortitle">UX/UI</div>
-          <div className="font-title text-colorparagraph mb-3 whitespace-nowrap">Lorem lorem lorem lorem. </div>
+          <div className="font-title text-colorparagraph text-sm mb-3">User Flow and prototyping.</div>
         
         </div>
       </div>
@@ -134,10 +134,10 @@ const Skills = () => {
   <div className="m-auto">
     <div className="flex flex-col bg-bgdark max-w-sm shadow-md py-8 px-10 sm:pt-4 md:px-4 rounded-md border-2 border-red px-2 py-6 rounded-lg transform transition duration-500 hover:scale-110">
       <div className="flex flex-col md:flex-row gap-6 md:gap-8">
-      <MdOutlineWebAsset className='text-6xl text-red'/>
+      <FaLightbulb className='text-6xl text-red'/>
         <div className="flex flex-col text-center md:text-left">
-          <div className="font-medium text-lg font-paragraph text-colortitle">Web Development</div>
-          <div className="font-title text-colorparagraph mb-3 whitespace-nowrap">lorem lorem lorem lorem.</div>
+          <div className="font-medium text-lg font-paragraph text-colortitle">Idea Generator</div>
+          <div className="font-title text-colorparagraph text-sm mb-3 whitespace-nowrap">Creative and unique ideas.</div>
           
         </div>
       </div>
@@ -151,8 +151,8 @@ const Skills = () => {
       <div className="flex flex-col md:flex-row gap-6 md:gap-8">
       <MdOutlineDevices className='text-6xl text-red'/>
         <div className="flex flex-col text-center md:text-left">
-          <div className="font-medium text-lg font-paragraph text-colortitle">Web Design</div>
-          <div className="font-title text-colorparagraph mb-3 whitespace-nowrap">lorem lorem lorem lorem.</div>
+          <div className="font-medium text-lg font-paragraph text-colortitle">Web Development</div>
+          <div className="font-title text-colorparagraph mb-3 text-sm">Responsive and accessible.</div>
           
         </div>
       </div>
