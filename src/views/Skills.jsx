@@ -35,7 +35,7 @@ const Skills = () => {
           </div>
 
           <div className="icon program animation">
-            <span className="tooltip">JavasScript</span>
+            <span className="tooltip">JavaScript</span>
             <span><i><IoLogoJavascript className="text-2xl"/> </i></span>
           </div>
 
