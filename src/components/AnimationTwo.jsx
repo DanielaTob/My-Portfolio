@@ -2,13 +2,14 @@ import React, { useState } from 'react'
 import img1 from '../assets/illustration2.png'
 import img2 from '../assets/illustration3.png'
 import img3 from '../assets/illustration4.png'
+import img4 from '../assets/illustration5.png'
 
 
 export default function AnimationTwo() {
 
   const [contador, setContador] = useState(0);
 
-  const array = [img2,img3,img1] //dejar la primera en el ultimo puesto del array
+  const array = [img2,img3,img4,img1] //dejar la primera en el ultimo puesto del array
 
   function animate () {
     const img = document.getElementById("one")
