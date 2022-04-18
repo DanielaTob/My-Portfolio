@@ -1,6 +1,7 @@
 import React from 'react'
 import { MdClose } from 'react-icons/md';
 
+
 const MenuItems = ({showMenu, active}) => {
   return (
     

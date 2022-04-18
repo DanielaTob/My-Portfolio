@@ -118,7 +118,7 @@ const Skills = () => {
           
 <div className=" flex flex-col ">
   <div className="m-auto">
-    <div className="flex flex-col bg-bgdark max-w-sm shadow-md py-8 px-10 md:px-4  rounded-md border-2 border-red px-2 py-6 rounded-lg transform transition duration-500 hover:scale-110">
+    <div className="flex flex-col bg-bgdark max-w-sm shadow-md  md:px-4  border-2 border-red px-2 py-6 rounded-lg transform transition duration-500 hover:scale-110">
       <div className="flex flex-col md:flex-row gap-6 md:gap-8">
         <MdDesignServices className='text-6xl text-red'/>
         <div className="flex flex-col text-center md:text-left">
@@ -132,7 +132,7 @@ const Skills = () => {
 
 
   <div className="m-auto">
-    <div className="flex flex-col bg-bgdark max-w-sm shadow-md py-8 px-10 sm:pt-4 md:px-4 rounded-md border-2 border-red px-2 py-6 rounded-lg transform transition duration-500 hover:scale-110">
+    <div className="flex flex-col bg-bgdark max-w-sm shadow-md  sm:pt-4 md:px-4 border-2 border-red px-2 py-6 rounded-lg transform transition duration-500 hover:scale-110">
       <div className="flex flex-col md:flex-row gap-6 md:gap-8">
       <FaLightbulb className='text-6xl text-red'/>
         <div className="flex flex-col text-center md:text-left">
@@ -147,7 +147,7 @@ const Skills = () => {
 
 
   <div className="m-auto">
-    <div className="flex flex-col bg-bgdark max-w-sm shadow-md py-8 px-10 md:px-4 rounded-md border-2 border-red px-2 py-6 rounded-lg transform transition duration-500 hover:scale-110">
+    <div className="flex flex-col bg-bgdark max-w-sm shadow-md  md:px-4 border-2 border-red px-2 py-6 rounded-lg transform transition duration-500 hover:scale-110">
       <div className="flex flex-col md:flex-row gap-6 md:gap-8">
       <MdOutlineDevices className='text-6xl text-red'/>
         <div className="flex flex-col text-center md:text-left">
