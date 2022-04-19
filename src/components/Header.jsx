@@ -18,11 +18,11 @@ export default function Header() {
                 <MdOutlineMenu onClick={showMenu} className='scale-150 cursor-pointer'/>
             </div>
             <ul className='hidden md:flex gap-8 p-6 text-colorparagraph'>
-                <li className='transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 hover:text-red'><a href='#home'>Home</a></li>
-                <li className='transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 hover:text-red'><a href='#projects'>Projects</a></li>
-                <li className='transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 hover:text-red'><a href='#skills'>Skills</a></li>
-                <li className='transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 hover:text-red'><a href='#about'>About</a></li>
-                <li className='transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 hover:text-red'><a href='#contact'>Contact</a></li>
+                <li className='transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 hover:text-red'><a href='/#home'>Home</a></li>
+                <li className='transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 hover:text-red'><a href='/#projects'>Projects</a></li>
+                <li className='transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 hover:text-red'><a href='/#skills'>Skills</a></li>
+                <li className='transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 hover:text-red'><a href='/#about'>About</a></li>
+                <li className='transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 hover:text-red'><a href='/#contact'>Contact</a></li>
             </ul>
 
             <MenuItems showMenu={showMenu} active={active}/>
