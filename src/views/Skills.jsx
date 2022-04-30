@@ -17,16 +17,18 @@ import { SiAdobephotoshop} from 'react-icons/si';
 import { MdDesignServices} from 'react-icons/md';
 import { MdOutlineDevices } from 'react-icons/md';
 import { FaLightbulb } from 'react-icons/fa';
-
+import 'animate.css';
 
 
 const Skills = () => {
   return (
-    <div id='skills' className='bg-bglight sm:pr-9 py-4 lg:pl-9 md:pl-9 grid sm:grid-cols-1 lg:grid-cols-2 xl:grid-flow-col auto-cols-max gap-2'>
-        <div className="font-paragraph text-colortitle font-bold pt-16 text-3xl">
-          <h1 className='sm:pl-9'>My Skills</h1>
+    <div className='bg-bglight min-h-screen sm:pr-9 py-4 lg:pl-9 md:pl-9 grid sm:grid-cols-1 lg:grid-cols-2 xl:grid-flow-col auto-cols-max gap-2'>
+        <div className="font-paragraph text-colortitle font-bold pt-4 text-3xl">
+          <div className='sm:pl-9 lg:p-0 md:pl-0 sm:pt-4'>
+          <h1 className='animate__animated animate__fadeInLeft'>My Skills</h1>
+          </div>
 
-          <div className='wrapper grid md:pb-10 sm:pb-10 lg:pb-10 sm:grid-cols-4 sm:pl-4 grid-cols-5 grid-rows-4 gap-10 pt-20 text-red'>
+          <div className='animate__animated animate__bounceInDown wrapper grid md:pb-10 sm:pb-10 lg:pb-10 sm:grid-cols-4 sm:pl-4 grid-cols-5 grid-rows-4 gap-10 pt-20 text-red'>
 
             
           <div className="icon program animation">
@@ -116,7 +118,7 @@ const Skills = () => {
         </div>
         <div className="grid font-paragraph text-colortitle font-bold">
           
-<div className=" flex flex-col ">
+<div className=" flex flex-col animate__animated animate__bounceInDown">
   <div className="m-auto">
     <div className="flex flex-col bg-bgdark max-w-sm shadow-md  md:px-4  border-2 border-red px-2 py-6 rounded-lg transform transition duration-500 hover:scale-110">
       <div className="flex flex-col md:flex-row gap-6 md:gap-8">

@@ -9,6 +9,7 @@
   },
   "dependencies": {
     "@emailjs/browser": "^3.6.2",
+    "animate.css": "^4.1.1",
     "flowbite": "^1.4.1",
     "imagehover.css": "^2.0.0",
     "react": "^17.0.2",

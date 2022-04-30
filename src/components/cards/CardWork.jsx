@@ -2,7 +2,7 @@ import React from "react";
 import { FaGithub} from 'react-icons/fa';
 import { BiWorld } from 'react-icons/bi';
 import { Link } from "react-router-dom";
-
+import 'animate.css';
 
 
 export default function CardWork() {
@@ -10,7 +10,7 @@ export default function CardWork() {
 
     <div>
 
-    <div className="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 p-10">
+    <div className="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 p-10  animate__animated animate__bounceInDown">
       
       
       

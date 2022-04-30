@@ -7,7 +7,7 @@ export default function TextProject() {
   return (
     <div>
       <ButtonBack />
-      <h1 className="font-paragraph text-colortitle font-bold pl-4 pt-10 text-3xl">
+      <h1 className="font-paragraph text-colortitle font-bold pl-4 pt-4 text-3xl">
         Eccomerce Pets Club
       </h1>
       <div className="font-title text-base text-colorparagraph pt-4 pl-4">

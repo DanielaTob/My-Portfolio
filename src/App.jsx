@@ -3,7 +3,10 @@ import {Routes, Route} from  'react-router-dom';
 import ScrollToTop from "react-scroll-to-top";
 import Header from './components/Header';
 import Landing from './pages/Landing';
-import Project from './pages/Project';
+import Work from './views/Work';
+import Contact from './views/Contact';
+import Skills from './views/Skills';
+import About from './views/About';
 
 
 function App() {
@@ -18,7 +21,10 @@ function App() {
       />
       <Routes>
         <Route path='/' element={<Landing />} />
-        <Route path='/Project' element={<Project />} />
+        <Route path='/Work' element={<Work />} />
+        <Route path='/Skills' element={<Skills />} />
+        <Route path='/About' element={<About />} />
+        <Route path='/Contact' element={<Contact />} />
       </Routes>
     </div>
   )
