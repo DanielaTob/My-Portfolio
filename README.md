@@ -1,6 +1,6 @@
 # My-Portfolio <img height="40" src="https://raw.githubusercontent.com/innng/innng/master/assets/kyubey.gif"/>
 
-# Daniela Tobar ✨ Portafolio ✨
+# Daniela Tobar ✨ Portfolio ✨
 
 Hello there 👋 and welcome to my online portfolio 🙈.
 
