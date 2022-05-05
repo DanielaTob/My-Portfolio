@@ -4,11 +4,12 @@ import HomeView from './HomeView'
 
 export default function Home() {
   return (
-    <div className='bg-bglight min-h-screen'>
+    <div className=''>
        
-        <div className='grid sm:grid-cols-1 lg:grid-cols-2 xl:grid-flow-col auto-cols-max gap-2'>
+        <div className='sm:pt-10 md:pt-20 lg:pt-20 xl:pt-20 grid min-h-screen z-10 sm:grid-cols-1 lg:grid-cols-2 xl:grid-flow-col auto-cols-max gap-2'>
         <HomeView />
         <AnimationOne />
+        
         </div>
     </div>
   )

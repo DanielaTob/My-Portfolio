@@ -12,7 +12,7 @@ import About from './views/About';
 function App() {
 
   return (
-    <div className="App">
+    <div className="App bg-bglight">
       <Header />
       <ScrollToTop smooth 
       width="40"

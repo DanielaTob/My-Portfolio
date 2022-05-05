@@ -22,7 +22,7 @@ import 'animate.css';
 
 const Skills = () => {
   return (
-    <div className='bg-bglight min-h-screen sm:pr-9 py-4 lg:pl-9 md:pl-9 grid sm:grid-cols-1 lg:grid-cols-2 xl:grid-flow-col auto-cols-max gap-2'>
+    <div className='bg-bglight min-h-screen sm:pt-10 md:pt-28 lg:pt-28 xl:pt-28 sm:pr-9 py-4 lg:pl-9 md:pl-9 grid sm:grid-cols-1 lg:grid-cols-2 xl:grid-flow-col auto-cols-max gap-2'>
         <div className="font-paragraph text-colortitle font-bold pt-4 text-3xl">
           <div className='sm:pl-9 lg:p-0 md:pl-0 sm:pt-4'>
           <h1 className='animate__animated animate__fadeInLeft'>My Skills</h1>
@@ -118,12 +118,12 @@ const Skills = () => {
         </div>
         <div className="grid font-paragraph text-colortitle font-bold">
           
-<div className=" flex flex-col animate__animated animate__bounceInDown">
-  <div className="m-auto">
-    <div className="flex flex-col bg-bgdark max-w-sm shadow-md  md:px-4  border-2 border-red px-2 py-6 rounded-lg transform transition duration-500 hover:scale-110">
+<div className="grid grid-cols-1 justify-center place-items-center animate__animated animate__bounceInDown">
+  <div className="">
+    <div className=" bg-bgdark max-w-sm shadow-md  md:px-4  border-2 border-red px-2 py-6 rounded-lg transform transition duration-500 hover:scale-110">
       <div className="flex flex-col md:flex-row gap-6 md:gap-8">
         <MdDesignServices className='text-6xl text-red'/>
-        <div className="flex flex-col text-center md:text-left">
+        <div className="grid grid-cols text-center md:text-left">
           <div className="font-medium text-lg font-paragraph text-colortitle">UX/UI</div>
           <div className="font-title text-colorparagraph text-sm mb-3">User Flow and prototyping.</div>
         
@@ -133,9 +133,9 @@ const Skills = () => {
   </div>
 
 
-  <div className="m-auto">
-    <div className="flex flex-col bg-bgdark max-w-sm shadow-md  sm:pt-4 md:px-4 border-2 border-red px-2 py-6 rounded-lg transform transition duration-500 hover:scale-110">
-      <div className="flex flex-col md:flex-row gap-6 md:gap-8">
+  <div className="">
+    <div className=" bg-bgdark max-w-sm shadow-md  sm:pt-4 md:px-4 border-2 border-red px-2 py-6 rounded-lg transform transition duration-500 hover:scale-110">
+      <div className="flex flex-col md:flex-row md:gap-8">
       <FaLightbulb className='text-6xl text-red'/>
         <div className="flex flex-col text-center md:text-left">
           <div className="font-medium text-lg font-paragraph text-colortitle">Idea Generator</div>
@@ -148,9 +148,9 @@ const Skills = () => {
 
 
 
-  <div className="m-auto">
-    <div className="flex flex-col bg-bgdark max-w-sm shadow-md  md:px-4 border-2 border-red px-2 py-6 rounded-lg transform transition duration-500 hover:scale-110">
-      <div className="flex flex-col md:flex-row gap-6 md:gap-8">
+  <div className="">
+    <div className=" bg-bgdark max-w-sm shadow-md  md:px-4 border-2 border-red px-2 py-6 rounded-lg transform transition duration-500 hover:scale-110">
+      <div className="flex flex-col md:flex-row md:gap-8">
       <MdOutlineDevices className='text-6xl text-red'/>
         <div className="flex flex-col text-center md:text-left">
           <div className="font-medium text-lg font-paragraph text-colortitle">Web Development</div>

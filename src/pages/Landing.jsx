@@ -4,7 +4,7 @@ import Home from '../views/Home'
 
 export default function Landing() {
   return (
-    <div>
+    <div className='bg-bglight '>
         <Home />
     </div>
   )

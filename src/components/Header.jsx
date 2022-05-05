@@ -14,10 +14,10 @@ export default function Header() {
     }
 
   return (
-    <div className='cursor-pointer text-xl font-fontFamily-paragraph bg-bglight w-full justify-start font-medium  md:p-4 items-center'>
+    <div className='fixed z-20 top-0 cursor-pointer text-xl font-fontFamily-paragraph bg-bglight w-full justify-start font-medium  md:p-4 items-center'>
         <nav>
             <div className='absolute right-6 md:hidden top-6 scale-150 text-red'>
-                <MdOutlineMenu onClick={showMenu} className='scale-150 cursor-pointer'/>
+                <MdOutlineMenu onClick={showMenu} className='scale-150 cursor-pointer '/>
             </div>
             <ul className='hidden md:flex gap-8 p-6 text-colorparagraph'>
             <Link to="/"><li className='transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 hover:text-red'>Home</li></Link> 
