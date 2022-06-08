@@ -11,6 +11,8 @@ import { SiPostman} from 'react-icons/si';
 import { FaLaravel } from 'react-icons/fa';
 import { SiMysql } from 'react-icons/si';
 import { FaPhp } from 'react-icons/fa';
+import { FaNodeJs } from 'react-icons/fa';
+
 
 import 'animate.css';
 
@@ -23,6 +25,60 @@ export default function CardWork() {
     <div className="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 p-10  animate__animated animate__bounceInDown">
       
       
+    <div className="transform transition duration-500 hover:scale-105">
+        <img
+          src="https://github.com/DanielaTob/img/blob/main/escape%20room.png?raw=true"
+          alt="project photo"
+          className="w-full object-cover object-center rounded-lg shadow-md"
+        />
+        <div className="relative px-4 -mt-16  ">
+          <div className="bg-white p-6 rounded-lg shadow-lg">
+            <div className="flex items-baseline">
+              <span className="text-red inline-block scale-110">
+                <FaReact />
+              </span>
+              <div>
+              <span className="text-red px-4 inline-block scale-125">
+                <SiTailwindcss/>
+              </span>
+              <span className="text-red px-2 inline-block scale-125">
+                <FaNodeJs/>
+              </span>
+              <span className="text-red px-2 inline-block scale-125">
+                <SiMongodb/>
+              </span>
+              <span className="text-red px-2 inline-block scale-125">
+                <SiExpress/>
+              </span>
+              </div>
+            </div>
+            
+
+            <h4 className="mt-1 text-lg font-title font-normal  leading-tight truncate">
+              Escape Room
+            </h4>
+
+            <div className="mt-1 text-sm">
+            Application created for the EducaMás foundation, in order to filter the students who apply, by means of two tests, one of logical tests and another of code.
+            </div>
+            <div className="mt-2 flex items-baseline gap-6">
+              <a href="https://escape-room-smoky.vercel.app/" target="_blank">
+              <button  className="transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 text-red text-sm font-title font-semibold">
+                View demo
+              </button>
+              </a>
+              
+              <a href="https://github.com/escape-room-fronted/EscapeRoom" target="_blank"> <button className="transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 text-red text-sm font-title font-semibold">
+                View repo </button>
+              </a>
+              
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+
       
       <div className="transform transition duration-500 hover:scale-105">
         <img
