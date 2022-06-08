@@ -79,10 +79,12 @@ export default function CardWork() {
 
 
 
-      
+
+
+
       <div className="transform transition duration-500 hover:scale-105">
         <img
-          src="https://raw.githubusercontent.com/DanielaTob/img/e78efedd3caf1c2abcdcce469e25559e228acfdd/covimap.png"
+          src="https://raw.githubusercontent.com/DanielaTob/img/main/meet.png"
           alt="project photo"
           className="w-full object-cover object-center rounded-lg shadow-md"
         />
@@ -90,33 +92,33 @@ export default function CardWork() {
           <div className="bg-white p-6 rounded-lg shadow-lg">
             <div className="flex items-baseline">
               <span className="text-red inline-block scale-110">
-                <IoLogoJavascript />
+                <FaLaravel />
               </span>
               <div>
               <span className="text-red px-4 inline-block scale-125">
-                <FaBootstrap/>
+                <SiTailwindcss/>
               </span>
               <span className="text-red px-2 inline-block scale-125">
-                <FaSass/>
+                <SiMysql/>
               </span>
               </div>
             </div>
 
             <h4 className="mt-1 text-lg font-title font-normal  leading-tight truncate">
-              CoviMap
+              Meeting Academy
             </h4>
 
             <div className="mt-1 text-sm">
-            Web page where users can consult information on data related to the pandemic caused by COVID-19.
+            Design and development of an on-line event management application. 
             </div>
             <div className="mt-2 flex items-baseline gap-6">
-              <a href="https://quirky-engelbart-595483.netlify.app/" target="_blank">
+              <a href="http://meetingacademy.herokuapp.com/" target="_blank">
               <button  className="transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 text-red text-sm font-title font-semibold">
                 View demo
               </button>
               </a>
               
-              <a href="https://github.com/DanielaTob/CoviMapAPI" target="_blank"> <button className="transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 text-red text-sm font-title font-semibold">
+              <a href="https://github.com/DanielaTob/Meeting-Academy" target="_blank"> <button className="transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 text-red text-sm font-title font-semibold">
                 View repo </button>
               </a>
               
@@ -234,7 +236,7 @@ export default function CardWork() {
 
       <div className="transform transition duration-500 hover:scale-105">
         <img
-          src="https://raw.githubusercontent.com/DanielaTob/img/main/meet.png"
+          src="https://raw.githubusercontent.com/DanielaTob/img/e78efedd3caf1c2abcdcce469e25559e228acfdd/covimap.png"
           alt="project photo"
           className="w-full object-cover object-center rounded-lg shadow-md"
         />
@@ -242,33 +244,33 @@ export default function CardWork() {
           <div className="bg-white p-6 rounded-lg shadow-lg">
             <div className="flex items-baseline">
               <span className="text-red inline-block scale-110">
-                <FaLaravel />
+                <IoLogoJavascript />
               </span>
               <div>
               <span className="text-red px-4 inline-block scale-125">
-                <SiTailwindcss/>
+                <FaBootstrap/>
               </span>
               <span className="text-red px-2 inline-block scale-125">
-                <SiMysql/>
+                <FaSass/>
               </span>
               </div>
             </div>
 
             <h4 className="mt-1 text-lg font-title font-normal  leading-tight truncate">
-              Meeting Academy
+              CoviMap
             </h4>
 
             <div className="mt-1 text-sm">
-            Design and development of an on-line event management application. 
+            Web page where users can consult information on data related to the pandemic caused by COVID-19.
             </div>
             <div className="mt-2 flex items-baseline gap-6">
-              <a href="http://meetingacademy.herokuapp.com/" target="_blank">
+              <a href="https://quirky-engelbart-595483.netlify.app/" target="_blank">
               <button  className="transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 text-red text-sm font-title font-semibold">
                 View demo
               </button>
               </a>
               
-              <a href="https://github.com/DanielaTob/Meeting-Academy" target="_blank"> <button className="transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 text-red text-sm font-title font-semibold">
+              <a href="https://github.com/DanielaTob/CoviMapAPI" target="_blank"> <button className="transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 text-red text-sm font-title font-semibold">
                 View repo </button>
               </a>
               
@@ -276,7 +278,11 @@ export default function CardWork() {
           </div>
         </div>
       </div>
+      
 
+
+
+      
 
       <div className="transform transition duration-500 hover:scale-105">
         <img
