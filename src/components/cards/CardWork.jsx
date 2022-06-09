@@ -68,7 +68,7 @@ export default function CardWork() {
               </button>
               </a>
               
-              <a href="https://github.com/escape-room-fronted/EscapeRoom" target="_blank"> <button className="transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 text-red text-sm font-title font-semibold">
+              <a href="https://github.com/DanielaTob/Escape-Room" target="_blank"> <button className="transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 text-red text-sm font-title font-semibold">
                 View repo </button>
               </a>
               
