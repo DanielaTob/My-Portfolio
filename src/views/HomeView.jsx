@@ -6,9 +6,13 @@ import TextHome from '../components/TextHome'
 export default function HomePage() {
   return (
     <div>
+
+      <div>
         <ButtonHi />
         <TextHome />
         <GroupButton />
+      </div>
+        
     </div>
   )
 }

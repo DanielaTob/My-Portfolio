@@ -13,22 +13,89 @@ import { DiGit} from 'react-icons/di';
 import { AiFillGithub } from 'react-icons/ai';
 import { CgFigma} from 'react-icons/cg';
 import { SiAdobeillustrator } from 'react-icons/si';
-import { SiAdobephotoshop} from 'react-icons/si';
 import { MdDesignServices} from 'react-icons/md';
 import { MdOutlineDevices } from 'react-icons/md';
 import { FaLightbulb } from 'react-icons/fa';
+import { FaDatabase } from 'react-icons/fa';
 import 'animate.css';
 
 
 const Skills = () => {
   return (
-    <div className='bg-bglight min-h-screen sm:pt-10 md:pt-28 lg:pt-28 xl:pt-28 sm:pr-9 py-4 lg:pl-9 md:pl-9 grid sm:grid-cols-1 lg:grid-cols-2 xl:grid-flow-col auto-cols-max gap-2'>
+    <div className='bg-bglight min-h-screen sm:pt-10 md:pt-28 lg:pt-28 xl:pt-28 sm:pr-9 py-4 lg:pl-9 md:pl-9 gap-2'>
         <div className="font-paragraph text-colortitle font-bold pt-4 text-3xl">
           <div className='sm:pl-9 lg:p-0 md:pl-0 sm:pt-4'>
           <h1 className='animate__animated animate__fadeInLeft'>My Skills</h1>
           </div>
 
-          <div className='animate__animated animate__bounceInDown wrapper grid md:pb-10 sm:pb-10 lg:pb-10 sm:grid-cols-4 sm:pl-4 grid-cols-5 grid-rows-4 gap-10 pt-20 text-red'>
+        </div>
+
+
+        <div className="pt-6">
+
+
+
+
+<div className="flex flex-wrap justify-center">
+
+    <div className="flex flex-col bg-white rounded-lg shadow-md w-full m-6 overflow-hidden sm:w-52">
+        <div className='flex justify-center pt-2'>
+        <MdOutlineDevices className='text-6xl text-red'/>
+        </div>
+
+        <h2 className="text-center px-2 pb-5 font-title text-colorparagraph">Development of accessible web Apps.</h2>  
+        
+        <div className="bg-red font-title text-white p-3 text-center ">Web Development</div>
+
+    </div>
+
+
+
+    <div className="flex flex-col bg-white rounded-lg shadow-md w-full m-6 overflow-hidden sm:w-52">
+        <div className='flex justify-center pt-2'>
+        <FaLightbulb className='text-6xl text-red'/>
+        </div>
+
+        <h2 className="text-center text-colorparagraph font-title px-2 pb-5">Creative, unique ideas and teamwork skills</h2>  
+        
+        <div className="bg-red font-title text-white p-3 text-center ">Idea Generator</div>
+
+    </div>
+
+
+
+    <div className="flex flex-col bg-white rounded-lg shadow-md w-full m-6 overflow-hidden sm:w-52">
+        <div className='flex justify-center pt-2'>
+        <MdDesignServices className='text-6xl text-red'/>
+        </div>
+
+        <h2 className="text-center font-title text-colorparagraph px-2 pb-5">Intuitive interface design for the user.</h2>  
+        
+        <div  className="bg-red font-title text-white p-3 text-center ">Web Design</div>
+
+    </div>
+
+
+
+    <div className="flex flex-col bg-white rounded-lg shadow-md w-full m-6 overflow-hidden sm:w-52">
+        <div className='flex justify-center pt-2'>
+        <FaDatabase className='text-5xl text-red'/>
+        </div>
+
+        <h2 className="text-center text-colorparagraph font-title pt-3 px-2 pb-5">A complete web app solution for a business</h2>  
+        
+        <div  className="bg-red font-title text-white p-3 text-center ">Data Anaysis</div>
+
+    </div>
+
+</div>
+
+</div>
+
+
+
+
+<div className='animate__animated animate__bounceInDown wrapper grid md:pb-10 sm:pb-10 lg:pb-10 sm:grid-cols-4 lg:grid-cols-7 md:grid-cols-7 sm:pl-6 grid-cols-7 grid-rows-7 gap-8 pt-20 text-red'>
 
             
           <div className="icon program animation">
@@ -109,62 +176,14 @@ const Skills = () => {
             <span><i><SiAdobeillustrator className="text-2xl"/> </i></span>
           </div>
 
-          <div className="icon program animation">
-            <span className="tooltip">Photoshop</span>
-            <span><i><SiAdobephotoshop className="text-2xl"/> </i></span>
-          </div>
 
           </div>
-        </div>
-        <div className="grid font-paragraph text-colortitle font-bold">
-          
-<div className="grid grid-cols-1 justify-center place-items-center animate__animated animate__bounceInDown">
-  <div className="">
-    <div className=" bg-bgdark max-w-sm shadow-md  md:px-4  border-2 border-red px-2 py-6 rounded-lg transform transition duration-500 hover:scale-110">
-      <div className="flex flex-col md:flex-row gap-6 md:gap-8">
-        <MdDesignServices className='text-6xl text-red'/>
-        <div className="grid grid-cols text-center md:text-left">
-          <div className="font-medium text-lg font-paragraph text-colortitle">UX/UI</div>
-          <div className="font-title text-colorparagraph text-sm mb-3">User Flow and prototyping.</div>
-        
-        </div>
-      </div>
-    </div>
-  </div>
+
+       
 
 
-  <div className="">
-    <div className=" bg-bgdark max-w-sm shadow-md  sm:pt-4 md:px-4 border-2 border-red px-2 py-6 rounded-lg transform transition duration-500 hover:scale-110">
-      <div className="flex flex-col md:flex-row md:gap-8">
-      <FaLightbulb className='text-6xl text-red'/>
-        <div className="flex flex-col text-center md:text-left">
-          <div className="font-medium text-lg font-paragraph text-colortitle">Idea Generator</div>
-          <div className="font-title text-colorparagraph text-sm mb-3 whitespace-nowrap">Creative and unique ideas.</div>
-          
-        </div>
-      </div>
-    </div>
-  </div>
+    
 
-
-
-  <div className="">
-    <div className=" bg-bgdark max-w-sm shadow-md  md:px-4 border-2 border-red px-2 py-6 rounded-lg transform transition duration-500 hover:scale-110">
-      <div className="flex flex-col md:flex-row md:gap-8">
-      <MdOutlineDevices className='text-6xl text-red'/>
-        <div className="flex flex-col text-center md:text-left">
-          <div className="font-medium text-lg font-paragraph text-colortitle">Web Development</div>
-          <div className="font-title text-colorparagraph mb-3 text-sm">Responsive and accessible.</div>
-          
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-
-
-          
-        </div>
     </div>
   )
 }
