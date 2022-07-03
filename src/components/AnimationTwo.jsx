@@ -25,8 +25,8 @@ export default function AnimationTwo() {
   
 
   return (
-    <div>
-        <div className='cursor-pointer'>
+    <div className='flex justify-center items-center'>
+        <div className='xl:w-[600px] lg:w-[600px] sm:w-[300px] cursor-pointer'>
         <img id="one" onClick={animate} src={img1} alt="img1" title='click me!'/>
         </div>
     </div>

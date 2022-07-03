@@ -23,8 +23,9 @@ import 'animate.css';
 const Skills = () => {
   return (
     <div className='bg-bglight min-h-screen sm:pt-10 md:pt-28 lg:pt-28 xl:pt-28 sm:pr-9 py-4 lg:pl-9 md:pl-9 gap-2'>
+        <div className='max-w-screen-2xl mx-auto'>
         <div className="font-paragraph text-colortitle font-bold pt-4 text-3xl">
-          <div className='sm:pl-9 lg:p-0 md:pl-0 sm:pt-4'>
+          <div className='sm:pl-9 lg:p-0 md:pl-0 sm:pt-4 text-center'>
           <h1 className='animate__animated animate__fadeInLeft'>My Skills</h1>
           </div>
 
@@ -36,9 +37,9 @@ const Skills = () => {
 
 
 
-<div className="flex flex-wrap justify-center">
+<div className="flex flex-wrap justify-center pt-4">
 
-    <div className="flex flex-col bg-white rounded-lg shadow-md w-full m-6 overflow-hidden sm:w-52">
+    <div className="flex flex-col bg-bgdark rounded-lg shadow-md w-full m-6 overflow-hidden sm:w-52">
         <div className='flex justify-center pt-2'>
         <MdOutlineDevices className='text-6xl text-red'/>
         </div>
@@ -51,7 +52,7 @@ const Skills = () => {
 
 
 
-    <div className="flex flex-col bg-white rounded-lg shadow-md w-full m-6 overflow-hidden sm:w-52">
+    <div className="flex flex-col bg-bgdark rounded-lg shadow-md w-full m-6 overflow-hidden sm:w-52">
         <div className='flex justify-center pt-2'>
         <FaLightbulb className='text-6xl text-red'/>
         </div>
@@ -64,7 +65,7 @@ const Skills = () => {
 
 
 
-    <div className="flex flex-col bg-white rounded-lg shadow-md w-full m-6 overflow-hidden sm:w-52">
+    <div className="flex flex-col bg-bgdark rounded-lg shadow-md w-full m-6 overflow-hidden sm:w-52">
         <div className='flex justify-center pt-2'>
         <MdDesignServices className='text-6xl text-red'/>
         </div>
@@ -77,14 +78,14 @@ const Skills = () => {
 
 
 
-    <div className="flex flex-col bg-white rounded-lg shadow-md w-full m-6 overflow-hidden sm:w-52">
+    <div className="flex flex-col bg-bgdark rounded-lg shadow-md w-full m-6 overflow-hidden sm:w-52">
         <div className='flex justify-center pt-2'>
         <FaDatabase className='text-5xl text-red'/>
         </div>
 
         <h2 className="text-center text-colorparagraph font-title pt-3 px-2 pb-5">A complete web app solution for a business</h2>  
         
-        <div  className="bg-red font-title text-white p-3 text-center ">Data Anaysis</div>
+        <div  className="bg-red font-title text-white p-3 text-center ">Data Analysis</div>
 
     </div>
 
@@ -181,7 +182,7 @@ const Skills = () => {
 
        
 
-
+    </div>
     
 
     </div>

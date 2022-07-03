@@ -7,7 +7,7 @@ export default function HomePage() {
   return (
     <div>
 
-      <div>
+      <div className='max-w-screen-2xl mx-auto'>
         <ButtonHi />
         <TextHome />
         <GroupButton />

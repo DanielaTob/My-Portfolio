@@ -28,7 +28,7 @@ export default function ModalForm() {
 
   return (
     <>
-      <div className="pt-8 pb-10 pl-9">
+      <div className="pt-8 pb-10 flex justify-center">
         <button
           className="transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 hover:text-white bg-transparent active:bg-red hover:bg-red text-red font-semibold font-fontFamily-paragraph hover:text-white py-2 px-12 border border-red hover:border-transparent rounded-lg focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150"
           type="button"
