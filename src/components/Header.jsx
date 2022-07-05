@@ -14,7 +14,7 @@ export default function Header() {
     }
 
   return (
-    <div className='fixed z-20 top-0 cursor-pointer text-xl font-fontFamily-paragraph bg-bglight w-full justify-start font-medium  md:p-4 items-center'>
+    <div className='fixed z-20 top-0 text-xl font-fontFamily-paragraph bg-bglight w-full justify-start font-medium  md:p-4 items-center'>
         <nav className='max-w-screen-2xl mx-auto'>
             <div className='absolute right-6 md:hidden top-6 scale-150 text-red'>
                 <MdOutlineMenu onClick={showMenu} className='scale-150 cursor-pointer '/>
